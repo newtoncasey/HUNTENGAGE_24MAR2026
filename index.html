@@ -171,6 +171,43 @@
   .inner-page-body{padding:40px 32px 60px!important;}
   .lo-page-tabs{top:70px!important;}
 }
+
+/* ══ HAMBURGER NUCLEAR FIX ══ */
+@media screen and (max-width:768px){
+  nav .nav-center{display:none!important;}
+  nav .nav-right{display:none!important;}
+  nav .nav-hamburger{display:flex!important;margin-left:auto;}
+  nav{padding:0 12px!important;height:56px!important;}
+}
+
+/* ══ SPLASH MOBILE FIX ══ */
+@media screen and (max-width:768px){
+  #splash-screen .splash-logo-img img{
+    height:auto!important;
+    width:80vw!important;
+    max-width:300px!important;
+  }
+  .splash-tagline{
+    font-size:clamp(9px,2.2vw,14px)!important;
+    letter-spacing:1.5px!important;
+    padding:0 16px!important;
+  }
+}
+@media screen and (max-width:480px){
+  #splash-screen .splash-logo-img img{
+    width:70vw!important;
+    max-width:240px!important;
+  }
+}
+
+/* ══ NAV LOGO MOBILE FIX ══ */
+@media screen and (max-width:768px){
+  nav .logo img, nav button.logo img{
+    height:32px!important;
+    width:auto!important;
+    max-width:160px!important;
+  }
+}
 </style>
 </head><body><div id="splash-screen"><div class="splash-logo"><div class="splash-logo-img"><img src="huntengage-logo.png" alt="HuntEngage" style="height:140px;width:auto;display:block;margin:0 auto;"></div><div class="splash-tagline">Built in the Field. Not in the Boardroom.</div></div>
 </div><div class="bg-grain"></div><div class="response-bar" id="responseBar"><div class="response-bar-inner"><div class="rb-left"><div class="rb-icon">📞</div><div class="rb-text"><strong>Questions? Concerns? Not sure where to hunt?</strong>
